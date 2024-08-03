@@ -30,7 +30,7 @@ export default function AboutMe() {
             <div className="card">
               <img
                 src="./img/septian.jpg"
-                className="card-img-top"
+                className="card-img-top image-card"
                 alt="Hutan 1"
               />
               <div className="card-body">
@@ -45,7 +45,7 @@ export default function AboutMe() {
             <div className="card">
               <img
                 src="./img/hutan2.jpeg"
-                className="card-img-top"
+                className="card-img-top image-card"
                 alt="Hutan 2"
               />
               <div className="card-body">
@@ -55,10 +55,10 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="col-md-4 mb-3">
-            <div className="card">
+            <div className="card ">
               <img
-                src="https://res.cloudinary.com/dlcgwbdtv/image/upload/v1696900259/IMG_20230815_210526_ijc5ul.jpg"
-                className="card-img-top"
+                src="https://res.cloudinary.com/dlcgwbdtv/image/upload/v1722671208/image-profil.jpg"
+                className="card-img-top image-card"
                 alt="Hutan 3"
               />
               <div className="card-body">
@@ -69,7 +69,6 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-
       <Footer />
     </>
   );
