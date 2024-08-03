@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Program Reboisasi",
+    "image": "https://www.sampoernaacademy.sch.id/wp-content/uploads/2022/05/close-up-picture-hand-holding-planting-sapling-plant_1150-28374.webp",
+    "description": "Program ini bertujuan untuk menanam kembali pohon di area yang telah mengalami deforestasi atau degradasi. Kegiatan ini melibatkan komunitas lokal, sekolah, dan relawan untuk menanam bibit pohon, merawatnya hingga tumbuh besar, dan memastikan keberlanjutannya."
+  },
+  {
+    "id": 2,
+    "title": "Edukasi Lingkungan di Sekolah",
+    "image": "https://www.faktaberita.co.id/wp-content/uploads/2024/07/66a9f178160e9.jpg",
+    "description": "Program ini mengintegrasikan materi edukasi tentang hutan dan lingkungan ke dalam kurikulum sekolah. Melalui kelas-kelas, lokakarya, dan kunjungan lapangan, siswa diajak untuk memahami pentingnya hutan, keanekaragaman hayati, dan cara menjaga kelestarian lingkungan."
+  },
+  {
+    "id": 3,
+    "title": "Pengelolaan Hutan Berkelanjutan",
+    "image": "https://pict.sindonews.net/dyn/850/pena/news/2022/11/16/15/942943/taf-indonesia-perkuat-pengeloaan-hutan-berkelanjutan-vnm.jpg",
+    "description": "Program ini berfokus pada pengelolaan hutan dengan pendekatan yang berkelanjutan, termasuk praktik penebangan yang bertanggung jawab, perlindungan spesies langka, dan pemulihan lahan yang terdegradasi. Program ini juga melibatkan pelatihan bagi masyarakat lokal dalam praktik pertanian dan kehutanan yang ramah lingkungan."
+  },
+  {
+    "id": 4,
+    "title": "Program Wisata Edukasi",
+    "image": "https://profauna.net/sites/default/files/field/image/img20230610113834_0.jpg",
+    "description": "Mengembangkan ekowisata di hutan sebagai cara untuk mendidik masyarakat tentang keanekaragaman hayati dan pentingnya pelestarian alam. Tur edukasi yang dipandu dapat mencakup pengenalan spesies lokal, konservasi, dan budaya lokal yang berkaitan dengan hutan."
+  },
+  {
+    "id": 5,
+    "title": "Adopsi Pohon",
+    "image": "https://ksdae.menlhk.go.id/assets/news/F2960D49-2BD0-4B78-965A-06F5CA84F5E5.jpeg",
+    "description": "Program ini memungkinkan individu atau kelompok untuk mengadopsi pohon di hutan dengan donasi. Donasi tersebut digunakan untuk menanam dan merawat pohon yang diadopsi. Adopter akan menerima sertifikat dan pembaruan tentang perkembangan pohon mereka."
+  }
+]

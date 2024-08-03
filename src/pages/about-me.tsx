@@ -13,14 +13,11 @@ export default function AboutMe() {
           </div>
           <div className="col-md-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              commodo odio a nisi consequat, vel dapibus nulla sagittis. Donec
-              et feugiat leo. Donec nec arcu turpis. In hac habitasse platea
-              dictumst. Phasellus gravida justo vel leo scelerisque vehicula.
-              Nam at felis sit amet metus dignissim pretium. Suspendisse
-              venenatis metus at nibh efficitur facilisis. Donec et condimentum
-              dui, non malesuada metus. Phasellus fringilla libero vel eros
-              tincidunt, et venenatis nisi vehicula. Suspendisse potenti.
+              Kami adalah organisasi nirlaba yang berdedikasi untuk melindungi
+              hutan dan edukasi masyarakat tentang pentingnya menjaga ekosistem
+              ini. Melalui berbagai program edukasi dan konservasi, kami
+              berusaha untuk meningkatkan kesadaran dan partisipasi dalam
+              menjaga kelestarian hutan.
             </p>
           </div>
         </div>
@@ -65,8 +62,8 @@ export default function AboutMe() {
                 alt="Hutan 3"
               />
               <div className="card-body">
-                <h5 className="card-title">Program 3</h5>
-                <p className="card-text">Deskripsi program 3.</p>
+                <h5 className="card-title">Hilman Imaduddin</h5>
+                <p className="card-text">Bagian Frontend</p>
               </div>
             </div>
           </div>

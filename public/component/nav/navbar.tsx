@@ -1,4 +1,9 @@
 export default function Navbar() {
+  function toggleNavbar() {
+    const navbar: any = document.querySelector(".navbar-collapse");
+    navbar.classList.toggle("show");
+    navbar.classList.toggle("transition");
+  }
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container-fluid">
@@ -13,8 +18,11 @@ export default function Navbar() {
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={toggleNavbar}
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon">
+            <img src="./img/svg/nav.svg" alt="nav" />
+          </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
@@ -24,12 +32,12 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/program">
+              <a className="nav-link" href="program">
                 Program
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="/about-me">
+              <a className="nav-link" href="about-me">
                 Tentang Kami
               </a>
             </li>

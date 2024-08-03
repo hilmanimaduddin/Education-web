@@ -1,94 +1,51 @@
 import React from "react";
 import Navbar from "../../public/component/nav/navbar";
 import Footer from "../../public/component/footer/footer";
+import { Carousel } from "react-bootstrap";
 
 const Home = () => {
   return (
     <>
       <div>
         <Navbar />
-
-        <div
-          id="carouselExampleCaptions"
-          className="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="0"
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src="./img/1.jpg" className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src="./img/2.jpg" className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src="./img/3.jpeg" className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
-              </div>
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="./img/1.jpg"
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <h3>Flora Eksotis</h3>
+              <p>
+                Hutan adalah rumah bagi berbagai tanaman eksotis yang tidak
+                ditemukan di tempat lain.
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="./img/2.jpg"
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+              <h3>Keajaiban Hutan Hujan Tropis</h3>
+              <p>Jelajahi keindahan hutan hujan tropis yang mempesona.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="./img/3.jpeg"
+              alt="Third slide"
+            />
+            <Carousel.Caption>
+              <h3>Hutan Hujan yang Lestari</h3>
+              <p>Pemandangan hutan hujan yang kaya akan flora dan fauna.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
 
         <div className="container my-5">
           <div className="card text-center">
@@ -105,12 +62,13 @@ const Home = () => {
               />
             </div>
             <div className="col-md-6">
-              <h2 className="text-primary">Judul Teks</h2>
+              <h2 className="text-primary">Menjaga Kehidupan Hutan</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Selamat datang di situs edukasi kami! Di sini, Anda akan
+                menemukan informasi penting tentang hutan, ekosistemnya, dan
+                bagaimana kita bisa menjaga kelestariannya. Hutan adalah
+                paru-paru bumi dan rumah bagi jutaan spesies. Mari kita pelajari
+                lebih dalam tentang peran hutan dalam kehidupan kita.
               </p>
             </div>
           </div>
@@ -123,12 +81,13 @@ const Home = () => {
               />
             </div>
             <div className="col-md-6 order-md-1">
-              <h2 className="text-primary">Judul Teks</h2>
+              <h2 className="text-primary">Hutan</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Hutan adalah ekosistem alami yang terdiri dari kumpulan pohon,
+                tumbuhan, hewan, dan organisme lainnya yang hidup dalam suatu
+                area tertentu. Hutan memiliki peran penting dalam menjaga
+                keseimbangan lingkungan dan menyediakan berbagai manfaat bagi
+                kehidupan manusia dan ekosistem secara keseluruhan.
               </p>
             </div>
           </div>
