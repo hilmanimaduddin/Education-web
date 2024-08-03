@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #51cf3e;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.carousel-item {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.motto {
+    font-size: 1.5rem;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.text-primary {
+    color: #08090a;
+}
+
+.img-fluid {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img {
+        height: auto;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
