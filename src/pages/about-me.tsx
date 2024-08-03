@@ -57,7 +57,7 @@ export default function AboutMe() {
           <div className="col-md-4 mb-3">
             <div className="card">
               <img
-                src="./img/hutan3.jpeg"
+                src="https://res.cloudinary.com/dlcgwbdtv/image/upload/v1696900259/IMG_20230815_210526_ijc5ul.jpg"
                 className="card-img-top"
                 alt="Hutan 3"
               />
