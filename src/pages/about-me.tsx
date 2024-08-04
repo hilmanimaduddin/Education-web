@@ -42,7 +42,7 @@ export default function AboutMe() {
           <div className="col-md-4 mb-3">
             <div className="card">
               <img
-                src="./img/hutan2.jpeg"
+                src="./img/hudha.jpeg"
                 className="card-img-top image-card"
                 alt="Hutan 2"
               />
