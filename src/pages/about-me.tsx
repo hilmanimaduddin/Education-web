@@ -35,9 +35,7 @@ export default function AboutMe() {
               />
               <div className="card-body">
                 <h5 className="card-title">SEPTIAN AL RIZKI </h5>
-                <p className="card-text">
-                  Bertanggung Jawab di Frontend, Menggunakan Framework Bootstrap
-                </p>
+                <p className="card-text">Mahasiswa Unsia</p>
               </div>
             </div>
           </div>
@@ -49,8 +47,8 @@ export default function AboutMe() {
                 alt="Hutan 2"
               />
               <div className="card-body">
-                <h5 className="card-title">Program 2</h5>
-                <p className="card-text">Deskripsi program 2.</p>
+                <h5 className="card-title">Syaiful Huda</h5>
+                <p className="card-text">Mahasiswa Unsia</p>
               </div>
             </div>
           </div>
@@ -63,7 +61,7 @@ export default function AboutMe() {
               />
               <div className="card-body">
                 <h5 className="card-title">Hilman Imaduddin</h5>
-                <p className="card-text">Bagian Frontend</p>
+                <p className="card-text">Mahasiswa Unsia</p>
               </div>
             </div>
           </div>

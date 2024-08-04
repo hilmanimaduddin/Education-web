@@ -41,6 +41,11 @@ export default function Navbar() {
                 Tentang Kami
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="suggestion">
+                Usulan
+              </a>
+            </li>
           </ul>
         </div>
       </div>
